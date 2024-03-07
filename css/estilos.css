@@ -21,8 +21,9 @@ header{
     height: 70px;
     width: 100%;
     opacity: 90%;
-    background-color: #F5F1DB;
+    background-color: transparent;
     display: inline-table;
+/*     position: absolute; */
 }
 .nav-link{
     font-family: "Libre Baskerville", serif;
@@ -33,9 +34,14 @@ header{
     font-family:charly;
     color: #7EB77F;
     margin-left: 1%;
-    margin-top: 1%;
-    margin-bottom: 0.75%;
+    margin-top: 0.2%;
+    margin-bottom: 0.2%;
 }
+.navbar-expand-sm .navbar-collapse{
+    justify-content: right;
+    padding-right: 1%;
+}
+
 .carousel-item{
 size-adjust: 100%;
 }
@@ -62,19 +68,32 @@ body{
 }
 
 /*termina.home*/
+
 .tnosotros{
     text-align: center;
-    font-family: "Libre Baskerville", serif;
+    font-family: "charly";
     font-size: 35px;
     color: beige;
+    position: sticky;
 }
 .pnosotros{
     text-align: center;
     font-family: 'Kanit', sans-serif;
-    font-size: 25px;
+    font-size: 120%;
     color: beige;
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.ftabout{
+width: 100%;
+height: 100%;
+position: absolute;
 }
 .contenedor2{
+    display: inline-table;
+}
+/* .contenedor2{
     background-color: #7EB77F;
     margin-left: 5%;
     margin-right: 5%;
@@ -83,7 +102,7 @@ body{
     padding: 10%;
     border-radius: 25px;
     opacity: 80%;
-}
+} */
 /*termina.nosotros*/
 span{
     font-family: "Libre Baskerville", serif;
