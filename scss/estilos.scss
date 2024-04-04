@@ -37,10 +37,16 @@ body{
     background-color: transparent;
     display: inline-table;
 }
-
+.ul.navbar-nav{
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
 .nav-link{
     font-family: $font1;
     color: #7EB77F;
+    text-decoration: none;
 }
 .navbar-brand{
     font-size: 35px;
@@ -86,8 +92,9 @@ body{
     }
 }
 
-.footer{
+.pie-de-pagina{
     background-color: $color-principal ;
+    font-family: $font1;
     padding:0%;
     overflow: hidden;
 }
@@ -229,14 +236,17 @@ span{
     text-align: center;
     color: beige;
     font-size: 35px;
-    font-family: $font2;
+    font-family: $font1;
+    position: relative;
+    margin-top: 10%;
 }
 .tablacont{
     text-align: center;
     display: grid;
     margin-left: 40%;
     margin-right: 40%;
-    font-family: $font2;
+    font-family: $font1;
+    position: relative;
 }
 /*termina.contacto*/
 
