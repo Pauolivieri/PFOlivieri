@@ -15,6 +15,7 @@ font-family: 'Great Vibes', cursive*/
 //variables
 $color-letra: black;
 $color-principal: white;
+$color-secundario: #7EB77F;
 $font1: "libre Baskerbille", serif;
 $font2: 'Kanit', sans-serif;
 $font3: "charly";
@@ -78,7 +79,7 @@ body{
     margin: 0;
     }
 
-    .carousel-caption h3 {
+    .carousel-caption {
         color: #7EB77F;
         font-family: $font1;
         font-size: 120%;
@@ -86,22 +87,29 @@ body{
     }
 
 .footer{
-    h3,p , ul li {
+    p , ul li {
         color:$color-letra ;
         font-family: $font1;
     }
 }
-
+.footer{
+    h3{
+        font-family: $font3;
+        
+    }
+}
 .pie-de-pagina{
-    background-color: $color-principal ;
+    background-color: #F8F9FA ;
     font-family: $font1;
     padding:0%;
     overflow: hidden;
+    position: relative;
+    color: $color-letra;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 }
-.footer-content {
-    margin: 0;
-    color: #7EB77F;
-}
+
 .footer-section {
     margin: 0 20px;
 }
@@ -118,6 +126,7 @@ body{
     list-style: none;
     padding: 0;
     display: flex;
+    color: $color-letra;
 }
 .social-media-links li {
     margin: 0 10px;
@@ -128,25 +137,28 @@ body{
     border-top: 1px solid #7EB77F;
 }
 
-/*termina.home*/
-
+.secserv{
+    padding-top: 2rem;
+}
 .tnosotros{
     text-align: center;
     font-family: $font3;
-    font-size: 35px;
+    font-size: 2rem;
     color: beige;
     position: absolute;
-    top:20px;
-    left:20px;
+    top: 19%;
+    right: 20%;
+    left: 20%;
 }
 .pnosotros{
     text-align: center;
     font-family: $font2;
     color:$color-principal;
     position: absolute;
-    padding-left: 5%;
-    top:110px;
-    left:-20px;
+    top: 11rem;
+    left: 7.5%;
+    right: 7.5%;
+    font-size: 100%;
 }
 
 .img-container{
@@ -168,56 +180,54 @@ position: absolute;
 /*termina.nosotros*/
 span{
     font-family: $font1;
-    font-size: 25px;
-    color: beige;
+    font-size: 1.1rem;
+    color: $color-letra;
 }
 .pservicios{
     font-family: $font2;
     font-size: 18px;
-    color: beige;
+    color: $color-letra;
 }
 .ps1, .ps2, .ps3, .ps4{
-    background-color: #7EB77F;
+    background-color: $color-principal;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 3%;
     margin-bottom: 3%;
-    padding: 1%;
     border-radius: 25px;
     opacity: 80%;
-    color: beige;
+    color: $color-letra;
+    font-size: 1rem;
+    padding: 0.2%;
 }
-.abajoserv{
-    font-family: $font2;
-    font-size: 15px;
-    text-align: center;
-}
+
 /*termina.servicios*/
+
 .tblog{
     text-align: center;
     font-family: $font2;
     font-size: 35px;
     color: beige;
 }
+
 .b1{
     text-align: center;
     font-family: $font2;
-    color: beige;
+    color: $color-letra;
 }
 .b2{
     text-align: center;
     font-family: $font2;
-    background-color: #7EB77F;
+    background-color: $color-principal;
     border-radius: 25px;
     margin-left: 35%;
     margin-right: 35%;
     opacity: 80%;
-    color: beige;
 }
 .sc1{
+    font-size: 10rem;
     text-align: center;
     font-family: $font2;
-    background-color:  #7EB77F;
+    background-color:  $color-principal;
     border-radius: 25px;
     margin-left: 35%;
     margin-right: 35%;
@@ -226,7 +236,7 @@ span{
 .sc2{
     text-align: center;
     font-family: $font2;
-    background-color:  #7EB77F;
+    background-color: $color-principal;
     border-radius: 25px;
     margin-left: 35%;
     margin-right: 35%;
@@ -248,6 +258,7 @@ span{
     font-family: $font1;
     position: relative;
 }
+
 /*termina.contacto*/
 
 

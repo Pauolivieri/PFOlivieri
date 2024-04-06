@@ -71,28 +71,32 @@ body {
   margin: 0;
 }
 
-.carousel-caption h3 {
+.carousel-caption {
   color: #7EB77F;
   font-family: "libre Baskerbille", serif;
   font-size: 120%;
   padding-bottom: 50%;
 }
 
-.footer h3, .footer p, .footer ul li {
+.footer p, .footer ul li {
   color: black;
   font-family: "libre Baskerbille", serif;
 }
 
+.footer h3 {
+  font-family: "charly";
+}
+
 .pie-de-pagina {
-  background-color: white;
+  background-color: #F8F9FA;
   font-family: "libre Baskerbille", serif;
   padding: 0%;
   overflow: hidden;
-}
-
-.footer-content {
-  margin: 0;
-  color: #7EB77F;
+  position: relative;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
 }
 
 .footer-section {
@@ -114,6 +118,7 @@ body {
   list-style: none;
   padding: 0;
   display: flex;
+  color: black;
 }
 
 .social-media-links li {
@@ -126,15 +131,19 @@ body {
   border-top: 1px solid #7EB77F;
 }
 
-/*termina.home*/
+.secserv {
+  padding-top: 2rem;
+}
+
 .tnosotros {
   text-align: center;
   font-family: "charly";
-  font-size: 35px;
+  font-size: 2rem;
   color: beige;
   position: absolute;
-  top: 20px;
-  left: 20px;
+  top: 19%;
+  right: 20%;
+  left: 20%;
 }
 
 .pnosotros {
@@ -142,9 +151,10 @@ body {
   font-family: "Kanit", sans-serif;
   color: white;
   position: absolute;
-  padding-left: 5%;
-  top: 110px;
-  left: -20px;
+  top: 11rem;
+  left: 7.5%;
+  right: 7.5%;
+  font-size: 100%;
 }
 
 .img-container {
@@ -169,32 +179,26 @@ body {
 /*termina.nosotros*/
 span {
   font-family: "libre Baskerbille", serif;
-  font-size: 25px;
-  color: beige;
+  font-size: 1.1rem;
+  color: black;
 }
 
 .pservicios {
   font-family: "Kanit", sans-serif;
   font-size: 18px;
-  color: beige;
+  color: black;
 }
 
 .ps1, .ps2, .ps3, .ps4 {
-  background-color: #7EB77F;
+  background-color: white;
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 3%;
   margin-bottom: 3%;
-  padding: 1%;
   border-radius: 25px;
   opacity: 80%;
-  color: beige;
-}
-
-.abajoserv {
-  font-family: "Kanit", sans-serif;
-  font-size: 15px;
-  text-align: center;
+  color: black;
+  font-size: 1rem;
+  padding: 0.2%;
 }
 
 /*termina.servicios*/
@@ -208,24 +212,24 @@ span {
 .b1 {
   text-align: center;
   font-family: "Kanit", sans-serif;
-  color: beige;
+  color: black;
 }
 
 .b2 {
   text-align: center;
   font-family: "Kanit", sans-serif;
-  background-color: #7EB77F;
+  background-color: white;
   border-radius: 25px;
   margin-left: 35%;
   margin-right: 35%;
   opacity: 80%;
-  color: beige;
 }
 
 .sc1 {
+  font-size: 10rem;
   text-align: center;
   font-family: "Kanit", sans-serif;
-  background-color: #7EB77F;
+  background-color: white;
   border-radius: 25px;
   margin-left: 35%;
   margin-right: 35%;
@@ -235,7 +239,7 @@ span {
 .sc2 {
   text-align: center;
   font-family: "Kanit", sans-serif;
-  background-color: #7EB77F;
+  background-color: white;
   border-radius: 25px;
   margin-left: 35%;
   margin-right: 35%;
